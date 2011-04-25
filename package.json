@@ -1,0 +1,29 @@
+{
+  "name": "connect-kyoto",
+  "description": "Kyoto Tycoon session store for Connect",
+  "version": "0.1.0",
+  "homepage": "https://github.com/wezm/connect-kyoto",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wezm/connect-kyoto.git"
+  },
+  "author": "Wesley Moore <wes@wezm.net> (http://www.wezm.net/)",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "cake test"
+  },
+  "dependencies": {
+    "connect": "~1.0",
+    "kyoto-client": "~0.3.0"
+  },
+  "devDependencies": {
+    "coffee-script": "~ 1.0.0",
+    "nodeunit": "~ 0.5.0"
+  },
+  "engines": {
+    "node": ">=0.4.3"
+  }
+}
